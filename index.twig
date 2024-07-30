@@ -5,7 +5,7 @@
     {% block meta %}{% endblock %}
 
     {% set title = block('title') is defined ? block('title') : '' %}
-    <title>{% if title is not empty %}{{ title|raw }} - {% endif %} {{ brand.name }} Operator Panel</title>
+    <title>{% if title is not empty %}{{ title|raw }} - {% endif %} IPTECH Operator Panel</title>
 
     {% include 'operator.' ~ template ~ '.head_common' %}
 
